@@ -24,5 +24,35 @@ body{
     height: 100%;
 }
 p {
-	font-size: 2em;  
+	font-size: .8em;  
+}
+
+
+.Timeline-title{
+	background-color: #e0e0e0;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	font-size: 3em;
+}
+
+.Timeline-subtitle{
+	color: #F7FE2E;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	font-size: 1em;
+}
+
+.Timeline-select{
+	color:#E6E6E6;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	font-size: 1.5em;
+}
+
+.Main{
+	color:#E6E6E6;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	font-size: 1.5em;
+}
+
+.pics{
+	box-shadow: 10px 10px 10px #888888;
+	
 }
