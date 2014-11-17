@@ -1,0 +1,455 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-56804515-1', 'auto');
+  ga('send', 'pageview');
+
+    </script>
+
+    <meta charset="utf-8">
+    <title>Shirley Yuan</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Shirley Yuan is a student from the University of Waterloo. She studies Math/ Financial Analysis and Risk Management, Minor Computer Science.">
+    <meta name="author" content="Shirley Yuan">
+
+    <link rel="icon" href="pictures/logo.ico">
+
+    <!-- Le styles -->
+    <link href="css/bootstrap1.css" rel="stylesheet">
+    <link href="css/bootstrap-responsive.css" rel="stylesheet">
+    <style type="text/css">
+
+    .area-colour{background-color: transparent;
+     -webkit-border-radius: 500px;
+     -moz-border-radius: 500px;
+          border-radius: 500px;}
+    .area-colour:hover {background-color: #F3E2A9;}
+
+    /* GLOBAL STYLES
+    -------------------------------------------------- */
+    /* Padding below the footer and lighter body text */
+
+    body {
+      padding-bottom: 40px;
+      color: #5a5a5a;
+      background-color: #FBF8EF
+    }
+
+.round-edge{
+-webkit-border-radius: 20px;
+     -moz-border-radius: 20px;
+          border-radius: 20px
+}
+
+    /* CUSTOMIZE THE NAVBAR
+    -------------------------------------------------- */
+
+    /* Special class on .container surrounding .navbar, used for positioning it into place. */
+    .navbar-wrapper {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      z-index: 10;
+      margin-top: 0px;
+      margin-bottom: -90px; /* Negative margin to pull up carousel. 90px is roughly margins and height of navbar. */
+    }
+    .navbar-wrapper .navbar {
+
+    }
+
+    /* Remove border and change up box shadow for more contrast */
+    .navbar .navbar-inner {
+      border: 0;
+      -webkit-box-shadow: 0 2px 10px rgba(0,0,0,.25);
+         -moz-box-shadow: 0 2px 10px rgba(0,0,0,.25);
+              box-shadow: 0 2px 10px rgba(0,0,0,.25);
+    }
+
+    /* Downsize the brand/project name a bit */
+    .navbar .brand {
+      padding: 14px 20px 16px; /* Increase vertical padding to match navbar links */
+      font-size: 18px;
+      font-weight: bold;
+      text-shadow: 0 -1px 0 rgba(0,0,0,.5);
+    }
+
+    /* Navbar links: increase padding for taller navbar */
+    .navbar .nav > li > a {
+      padding: 15px 55px;
+    }
+
+    /* Offset the responsive button for proper vertical alignment */
+    .navbar .btn-navbar {
+      margin-top: 10px;
+    }
+
+
+
+    /* CUSTOMIZE THE CAROUSEL
+    -------------------------------------------------- */
+
+    /* Carousel base class */
+    .carousel {
+      margin-bottom: 60px;
+    }
+
+    .carousel .container {
+      position: relative;
+      z-index: 9;
+    }
+
+    .carousel-control {
+      height: 80px;
+      margin-top: 0;
+      font-size: 120px;
+      text-shadow: 0 1px 1px rgba(0,0,0,.4);
+      background-color: transparent;
+      border: 0;
+      z-index: 10;
+    }
+
+    .carousel .item {
+      height: 800px;
+    }
+    .carousel img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      min-width: 100%;
+      height: 800px;
+    }
+
+    .img-cover {
+      position: absolute;
+      top: 0;
+      left: 0;
+      min-width: 100%;
+      height: 850px;
+    }
+
+    .carousel-caption {
+    -webkit-border-radius: 20px;
+     -moz-border-radius: 20px;
+          border-radius: 20px
+      background-color: #1C1C1C;
+      opacity:.5;
+      position: static;
+      max-width: 550px;
+      padding: 20px 20px;
+      margin-top: 150px;
+    }
+    .carousel-caption h1,
+    .carousel-caption .lead {
+      margin: 0;
+      line-height: 1.25;
+      color: #fff;
+      outline-color: #2E2E2E;
+      text-shadow: 0 1px 1px rgba(0,0,0,.4);
+      text-align: center;
+    }
+
+    .carousel-caption .btn {
+      margin-top: 10px;
+    }
+
+
+
+    /* MARKETING CONTENT
+    -------------------------------------------------- */
+
+    /* Center align the text within the three columns below the carousel */
+    .marketing .span4 {
+      text-align: center;
+    }
+    .marketing h2 {
+      font-weight: normal;
+    }
+    .marketing .span4 p {
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+
+
+    /* Featurettes
+    ------------------------- */
+
+    .featurette-divider {
+      margin: 80px 0; /* Space out the Bootstrap <hr> more */
+    }
+    .featurette {
+      padding-top: 120px; /* Vertically center images part 1: add padding above and below text. */
+      overflow: hidden; /* Vertically center images part 2: clear their floats. */  
+    }
+    .featurette-image {
+      margin-top: -120px; /* Vertically center images part 3: negative margin up the image the same amount of the padding to center it. */
+    }
+
+    /* Give some space on the sides of the floated elements so text doesn't run right into it. */
+    .featurette-image.pull-left {
+      margin-right: 40px;
+    }
+    .featurette-image.pull-right {
+      margin-left: 40px;
+    }
+
+    /* Thin out the marketing headings */
+    .featurette-heading {
+      font-size: 50px;
+      font-weight: 300;
+      line-height: 1;
+      letter-spacing: -1px;
+    }
+
+
+
+    /* RESPONSIVE CSS
+    -------------------------------------------------- */
+
+    @media (max-width: 979px) {
+
+      .container.navbar-wrapper {
+        margin-bottom: 0;
+        width: auto;
+      }
+      .navbar-inner {
+        border-radius: 0;
+        margin: -20px 0;
+      }
+
+      .carousel .item {
+        height: 500px;
+      }
+      .carousel img {
+        width: auto;
+        height: 800px;
+      }
+
+      .featurette {
+        height: auto;
+        padding: 0;
+        
+      }
+      .featurette-image.pull-left,
+      .featurette-image.pull-right {
+        display: block;
+        float: none;
+        max-width: 40%;
+        margin: 0 auto 20px;
+      }
+    }
+
+
+    @media (max-width: 767px) {
+
+      .navbar-inner {
+        margin: -20px;
+      }
+
+      .carousel {
+        margin-left: -20px;
+        margin-right: -20px;
+      }
+      .carousel .container {
+
+      }
+      .carousel .item {
+        height: 300px;
+      }
+      .carousel img {
+        height: 300px;
+      }
+      .carousel-caption {
+        width: 65%;
+        padding: 0 70px;
+        margin-top: 100px;
+      }
+      .carousel-caption h1 {
+        font-size: 30px;
+      }
+      .carousel-caption .lead,
+      .carousel-caption .btn {
+        font-size: 18px;
+      }
+
+      .marketing .span4 + .span4 {
+        margin-top: 40px;
+      }
+
+      .featurette-heading {
+        font-size: 30px;
+      }
+      .featurette .lead {
+        font-size: 18px;
+        line-height: 1.5;
+      }
+
+    }
+    </style>
+
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="../assets/js/html5shiv.js"></script>
+    <![endif]-->
+
+    <!-- Fav and touch icons -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="../assets/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="../assets/ico/apple-touch-icon-114-precomposed.png">
+      <link rel="apple-touch-icon-precomposed" sizes="72x72" href="../assets/ico/apple-touch-icon-72-precomposed.png">
+                    <link rel="apple-touch-icon-precomposed" href="../assets/ico/apple-touch-icon-57-precomposed.png">
+                                   <link rel="shortcut icon" href="../assets/ico/favicon.png">
+  </head>
+
+  <body>
+
+
+
+    <!-- NAVBAR
+    ================================================== -->
+    <div class="navbar-wrapper">
+      <!-- Wrap the .navbar in .container to center it within the absolutely positioned parent. -->
+      <div class="container">
+
+        <div class="navbar navbar-fixed-top opacity:.1">
+          <div class="navbar-inner">
+            <!-- Responsive Navbar Part 1: Button for triggering responsive navbar (not covered in tutorial). Include responsive CSS to utilize. -->
+            <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="brand nav-header" href="index.html">Shirley Yuan</a>
+            <!-- Responsive Navbar Part 2: Place all navbar contents you want collapsed withing .navbar-collapse.collapse. -->
+            <div class="nav-collapse collapse">
+              <ul class="nav">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html#about">About</a></li>
+                <li class="active"><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="Shirley Yuan-Waterloo.pdf">Resume</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <!-- Read about Bootstrap dropdowns at http://twbs.github.com/bootstrap/javascript.html#dropdowns -->
+               
+              </ul>
+            </div><!--/.nav-collapse -->
+          </div><!-- /.navbar-inner -->
+        </div><!-- /.navbar -->
+
+      </div> <!-- /.container -->
+    </div><!-- /.navbar-wrapper -->
+
+    <!-- CONTENT -->
+      <div class="container marketing">
+
+      <div class="featurette">
+        <h2 class="featurette-heading">Co-op.<span class="muted"> From Finance to Tech.</span></h2>
+        <hr class="featurette-divider">
+        <img class="featurette-image img-polaroid pull-left" src="http://upload.wikimedia.org/wikipedia/commons/f/fd/Downtown_Toronto-02.jpg" height=650px width=650px/>
+      
+        <p class="lead" >The Co-op program at the University of Waterloo provided me the opportunity to experience different industries and discover what I'm passionate about. My previous terms include working as a business analyst at TD Securities, a financial analyst at DBRS, and I'm currently on the Dynamics team at Microsoft focusing on our CRM and ERP products. </p> 
+
+      </div>
+
+      <hr class="featurette-divider">
+
+       <div class="row">
+        <div class="span4">
+          <img class="round-edge" src="http://images.techhive.com/images/article/2013/03/microsoft_logo-100029828-gallery.jpg" style="height: 300px">
+          <h2>Business Development Manager Intern</h2>
+          <p>
+            <ul>
+              <li align="left">Analyzed trends from different Dynamics activities and evaluated the success of tactics</li>
+            </ul>
+            </p>
+          </div><!-- /.span4 -->
+
+        <div class="span4">
+          <img class="round-edge" src="http://rcwib.students.rotmancommerce.utoronto.ca/files/2013/01/TD_SHIELD_PRINT_LOGO_COL_RGB.jpg" style="height: 300px">
+          <h2>Business Analyst</h2>
+          
+          <p style="padding-top: 28px">
+            <ul>
+               <li align="left">TD Securities Act for Impact Award for contribution to Calypso Derivative upgrade through Systems Development Life Cycle (SIT & UAT)</li>
+             </ul>
+          </p>
+          
+        </div><!-- /.span4 -->
+        <div class="span4">
+          <img class="round-edge" src="http://upload.wikimedia.org/wikipedia/en/9/93/DBRS_Corporate_Logo.jpg" style="height: 300px">
+          <h2>Junior Financial Analyst</h2>
+          <p style="padding-top: 28px">
+            <ul>
+              <li align="left">Headed DBRS’s<a href="Canadian Short-Term Debt Market 2013.pdf"> commercial paper</a> and pension study, released February 2013</li>
+            </ul>
+
+            </p>
+          
+        </div><!-- /.span4 -->
+      </div><!-- /.row -->
+
+       <hr class="featurette-divider">
+       <h2 class="featurette-heading muted">Projects and Certificates</h2>
+       <hr class="featurette-divider">
+       <div class="featurette">
+       <img class="featurette-image img-round1 pull-left" src="http://www.bloomberg.com/professional/content/uploads/sites/2/2012/08/Bloomberg-Charts.jpg" style="padding-left: 65px; padding-right: 65px; height:300px">
+        <p class="lead">Bloomberg University Certificates:
+          <ul>
+            <li>Equity Essentials</li>
+            <li>Fixed Income</li>
+            <li>Commodities</li>
+            <li>FX</li>
+          </ul>
+            </p>
+        </div>
+
+       <hr class="featurette-divider">
+       <div class="featurette">
+
+       <img class="featurette-image img-polaroid round-edge pull-right" src="Pictures/bridge.jpg" width=600px>
+        <p class="lead" style="padding-top:40px">Western University Physics Bridge Building Contest
+          <ul>
+            <li>Received first place for designing and building the most asthetic bridge</li>
+            <li>Gothic style bridge held over 65kg of weight</li>
+          </ul>
+            </p> 
+        </div>
+
+         <hr class="featurette-divider">  
+         <h1 class="h1-head muted">Other Experiences</h1>
+        <div class="row">
+        <div class="span4">
+          <img class="img-rounded" src="http://www.scenemagazine.com/Portals/0/scenelogo.gif">
+          <h2>The Scene Magazine</h2>
+          <p><a href="http://www.scenemagazine.com/">Seasonal writer</a></p>
+          
+        </div><!-- /.span4 -->
+        <div class="span4">
+          <img class="img-rounded" src="http://juniorachievementvietnambulletin.files.wordpress.com/2013/04/junior-achievement.gif?w=352">
+          <h2>Junior Achievement</h2>
+          <p><a href="http://jacan.org/program/dollars-sense">Dollars with Sense volunteer program</a></p>
+        </div>
+         <!-- /.span4 -->
+        <div class="span4">
+          <img class="img-rounded" src="pictures/hourofcode.jpg">
+          <h2>Microsoft YouthSpark</h2>
+          <p><a href="http://www.microsoft.com/about/corporatecitizenship/en-us/youthspark/youthsparkhub/hourofcode">Hour of Code</a></p>
+          
+        </div><!-- /.span4 -->
+      </div><!-- /.row -->
+
+      <hr class="featurette-divider">
+       <footer>
+        <p>&copy; 2014 Shirley Yuan. &middot; Created with Love &middot; </p>
+      </footer>
+
+    </div><!-- /.container -->
+
+    
+
+
